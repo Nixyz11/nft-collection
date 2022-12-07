@@ -1,7 +1,10 @@
 {
-    
-        "solidity.packageDefaultDependenciesDirectory": "path/to/sub/dir/node_modules"
-      
+         "solidity.packageDefaultDependenciesContractsDirectory": "src", 
+        "solidity.packageDefaultDependenciesDirectory": "lib",
+         "solidity.compileUsingRemoteVersion": "v0.8.15", 
+        "solidity.remappings": [ "forge-std/=lib/forge-std/src/", 
+                             "@openzeppelin/=lib/openzeppelin-contracts/",] 
+        
 
 
 }
